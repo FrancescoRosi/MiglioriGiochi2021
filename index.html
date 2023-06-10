@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow: hidden;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css' integrity='sha512-IgmDkwzs96t4SrChW29No3NXBIBv8baW490zk5aXvhCD8vuZM3yUSkbyTBcXohkySecyzIrUwiF/qV0cuPcL3Q==' crossorigin='anonymous'/>
+    <link rel="stylesheet" href="https://unpkg.com/@creativebulma/bulma-tooltip/dist/bulma-tooltip.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+    <style>
+        *, button, [data-tooltip]::before {
+            font-family: Inter, sans-serif !important;
+        }
+        #title {
+            word-break: inherit;
+            white-space: pre-wrap;
+        }
+        @media screen and (max-width: 1023px) {
+            #image {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            html {
+                overflow: scroll !important;
+            }
+        }
+        @media screen and (min-width: 1024px) {
+            #title {
+                margin-bottom: 0;
+                margin-left: 1rem;
+            }
+            #subtitle {
+                margin-top: 0;
+            }
+        }
+        @media screen and (min-width: 1024px) and (max-width: 1408px) {
+            .column {
+                min-width: 1024px;
+            }
+            .columns {
+                flex-wrap: wrap;
+            }
+        }
+        @media screen and (min-width: 1024px) {
+            #link > button {
+                margin-bottom: .5rem;
+            }
+            #title::before {
+                content: " ";
+            }
+        }
+        @media (hover: none) and (pointer: coarse) {
+            [data-tooltip]::before {
+                display: none;
+            }
+        }
+    </style>
+    <title>Migliori Giochi 2021 (.ga)</title>
+</head>
+<body>
+    <center class="title is-size-1 has-text-weight-bold">Migliori Giochi 2021</center>
+    <div class="columns is-vcentered has-text-centered mx-2">
+        <div class="column">
+            <div class="box has-background-primary is-inline-flex-desktop is-block-touch is-align-items-center" style="width: 100%;">
+                <figure class="image is-128x128" id="image" style="min-width: 128px; min-height: 128px;">
+                    <img src="https://webgameapp.com/web/game-thumbnails/b/brawllegend.jpg" style="border-radius: 6px;">
+                </figure>
+                <h1 id="title" class="title is-size-2 has-text-weight-bold has-text-black">Brawl Legends</h1>
+                <p id="subtitle" class="subtitle is-size-4 has-text-black mb-0">Ti piacciono i giochi sparatutto? Brawl Legends ti aspetta.</p>
+                <div class="is-block-touch is-flex-widescreen is-flex-direction-column">
+                    <a id="link" href="https://html5.gamedistribution.com/rvvASMiM/6bb300f8b3af4d45b2d5dff77e22dce4/?" target="_blank">
+                        <button class="button is-link">Gioca ora!</button>
+                    </a>
+                    <button data-tooltip="Per donare, clicca &quot;Gioca ora!&quot;, poi clicca l&#39;icona a forma di triangolo nella barra di indirizzi e infine clicca &quot;Invia una donazione&quot;." class="button is-link has-tooltip-multiline" onclick="alert(alertmsg);">Dona con Brave!</button>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="box has-background-primary is-inline-flex-desktop is-block-touch is-align-items-center" style="width: 100%;">
+                <figure class="image is-128x128" id="image" style="min-width: 128px; min-height: 128px;">
+                    <img src="https://lh3.googleusercontent.com/0i6cCn6kJo5Ef0Fapr5sWxYyujWBJhN6Q4vUOvi4ripJVBBGMuNQ4K8o-KTnk3uL4ApsNKO2Vnc-66Nwt6VVRM3nJQ=w128-h128-e365-rj-sc0x00ffffff" style="border-radius: 6px;">
+                </figure>
+                <h1 id="title" class="title is-size-2 has-text-weight-bold has-text-black">Clash of Vikings</h1>
+                <p id="subtitle" class="subtitle is-size-4 has-text-black mb-0">Aiuta questi feroci vichinghi a difendere le loro terre dall'attacco di altri clan!</p>
+                <div class="is-block-touch is-flex-widescreen is-flex-direction-column">
+                    <a id="link" href="http://brawlstars-games.com/game/vikings" target="_blank">
+                        <button class="button is-link">Gioca ora!</button>
+                    </a>
+                    <a id="link" href="http://brawlstars-games.com/game/vikings/media/audio/bgm.ogg" target="_blank">
+                        <button class="button is-link">Ascolta la canzone!</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer has-background-light" style="width: 100%; 
+    padding-bottom: 3rem;">
+        <strong>Migliori Giochi 2021</strong>
+        <p>Questo sito è una parodia di tutti quei siti top 10 che danno informazioni errate o tendenziose. Ma dato che è anche una parodia dei siti con dei giochi specifici (e anche perché ho bisogno del SEO):</p>
+        <p>Benvenuto su Migliori Giochi 2021, dove troverai i migliori giochi 2019, 2020, 2021. In questo sito troverai migliori giochi ps4, migliori giochi android, migliori giochi nintendo switch, migliori giochi pc, migliori giochi da tavolo, migliori giochi pc gratis, migliori giochi switch, migliori giochi ps2, migliori giochi ps3, migliori giochi ps4 2020, migliori giochi ps1, migliori giochi per pc, migliori giochi ps5, migliori giochi xbox one, migliori giochi ps4 di sempre, i migliori giochi per ps4, migliori giochi online, i migliori giochi per pc, migliori giochi psp, i migliori giochi da tavolo, migliori giochi wii, migliori giochi, migliori giochi da tavolo 2019, migliori giochi da tavolo di strategia, migliori giochi android gratis, migliori giochi 3ds, migliori giochi gestionali, migliori giochi per ps4, migliori giochi oggetti nascosti, migliori giochi psx, migliori giochi di escape room, migliori giochi ps4 2019, migliori giochi per android, migliori giochi per nintendo switch, i migliori giochi ps4, migliori giochi manageriali android, migliori giochi xbox 360, ps4 migliori giochi, migliori giochi da tavolo 2020, migliori giochi vr, migliori giochi di strategia, migliori giochi gba, migliori giochi horror ps4, migliori giochi nes, migliori giochi nds, migliori giochi di società, migliori giochi nintendo ds, migliori giochi ps now, i migliori giochi gratis per pc, migliori giochi pc 2019, migliori giochi in scatola, migliori giochi game boy advance, i migliori giochi, migliori giochi single player, migliori giochi di ruolo android, migliori giochi di ruolo online, migliori giochi indie, migliori giochi gratis ps4, migliori giochi free to play, migliori giochi horror, migliori giochi online pc, migliori giochi gratis, migliori giochi 2018, migliori giochi gestionali pc, migliori giochi gamecube, migliori giochi di ruolo ps4, i migliori giochi per android, migliori giochi single player pc, migliori giochi pc di sempre, migliori giochi ps vr, migliori giochi da tavolo 2018, migliori giochi multiplayer, migliori giochi ps4 gratis, migliori giochi da tavolo per due, migliori giochi coop pc, migliori giochi 2019, migliori giochi psvita, migliori giochi di strategia pc, migliori giochi vr ps4, migliori giochi a pagamento android, migliori giochi 2018 pc, migliori giochi di ruolo, migliori giochi horror pc, migliori giochi sparatutto pc, migliori giochi strategia online, i migliori giochi per pc gratis, migliori giochi multiplayer ps4, migliori giochi iphone 7, migliori giochi gratis su steam, migliori giochi mobile, migliori giochi mame, migliori giochi di sempre, migliori giochi per pc gratis, migliori giochi nintendo 3ds, migliori giochi survival, migliori giochi per xbox one, migliori giochi mmorpg, i migliori giochi di strategia, migliori giochi ps4 pro, migliori siti dove scaricare giochi pc, migliori siti dove scaricare giochi, i migliori siti dove scaricare giochi per pc, migliori siti dove scaricare giochi ps3, migliori siti dove acquistare giochi, migliori siti dove comprare giochi pc, i migliori siti dove scaricare giochi xbox 360, i migliori siti dove scaricare giochi pc, migliori giochi come diablo, i migliori siti dove comprare giochi pc, i migliori siti dove scaricare giochi, migliori siti dove scaricare giochi xbox 360, migliori siti dove scaricare giochi wii, migliori siti dove scaricare giochi pc gratis, i migliori siti dove scaricare giochi psp, migliori siti dove comprare giochi, migliori siti dove scaricare giochi per pc.</p>
+        <p>Finalmente è finito quel paragrafo eterno. Ah comunque questo sito è stato creato da <a href="https://linktr.ee/francescorosi" target="_blank">Francesco</a> con Bulma e molto poco cervello.</p>
+    </footer>
+    <script>
+        if (window.matchMedia("(hover: none) and (pointer: coarse)").matches) {
+            document.querySelector("[data-tooltip]").removeAttribute("data-tooltip");
+        }
+        const alertmsg = "Per donare, clicca \"Gioca ora!\", poi clicca l'icona a forma di triangolo nella barra di indirizzi e infine clicca \"Invia una donazione\".";
+    </script>
+</body>
+</html>
